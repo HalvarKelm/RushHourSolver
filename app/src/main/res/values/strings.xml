@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RushHourSolver</string>
+    <string name="title_activity_solve_page">SolvePage</string>
+    <string name="timerVal">00:00:00</string>
+</resources>

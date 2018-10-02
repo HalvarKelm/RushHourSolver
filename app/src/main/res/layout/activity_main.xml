@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rhp.rushhourproject.MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="270dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="Y"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="H"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="Y"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="H"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="X"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="X"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="Y"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="R"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="R"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="B"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="M"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="B"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="P"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="P"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="M"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="L"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="L"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText30"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="G"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="M"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText35"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editText36"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".16"
+                android:ems="10"
+                android:hint="Car"
+                android:inputType="textPersonName"
+                android:text="G"
+                android:textAlignment="center" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="SOLVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="RESET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.502" />
+
+</android.support.constraint.ConstraintLayout>
